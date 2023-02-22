@@ -1,7 +1,7 @@
 .barralateral {
     height: 100%;
     width: 250px;
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     padding-top: 40px;
@@ -73,7 +73,7 @@
 
 }
 .linea2 {
-    margin-left: 350px;
+    margin-left:350px;
     
 
 }
