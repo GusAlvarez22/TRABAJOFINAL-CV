@@ -19,3 +19,10 @@ nav{
 .imgperfil{
     border-radius: 60%;
       }
+.nombre{
+    margin-bottom: 5px; 
+    padding: 20px 30px;
+}      
+.direccion{
+    margin-top: 5px;
+}
