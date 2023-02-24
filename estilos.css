@@ -14,7 +14,8 @@
     display: block;
     text-decoration: none;
     color: aliceblue;
-    margin-left: 40px;
+    margin-left: 28px;
+    text-shadow: 1px 2px 3px black ;
     }
     
     .barralateral a:hover {
@@ -27,7 +28,7 @@
     .encabezado {
     margin-left: 50px;
     background: rgb(243, 213, 213);
-    padding-top: 80px;
+    padding-top: 130px;
     }
 
 
@@ -36,10 +37,10 @@
       }
 .nombre{
     margin-bottom: -40px;
-    margin-left: 220px;
+    margin-left: 270px;
     font-family: 'Saira Extra Condensed', sans-serif;
     font-size: 100px;
-    margin-top: -110px;
+    margin-top: -160px;
     padding-top: 2px;
     padding-bottom: 2px;
     
@@ -47,9 +48,9 @@
     
 }      
 .direccion{
-    margin-top: 5px;
+    margin-top: -45px;
     padding: 1px 6px;
-    margin-left: 200px;
+    margin-left: 250px;
     font-family: 'Saira Extra Condensed', sans-serif;
     font-size: 25px;
 }
@@ -57,12 +58,13 @@
     font-family: 'Saira Extra Condensed', sans-serif;
     font-size: 30px;
     margin-left: 250px;
-    ;
+    text-shadow: 1px 2px 3px grey ;
 }
 .rrss{
     display: flex;
     align-items: center;
     padding-top: 35px;
+    justify-content: space-evenly;
     
     
  
@@ -89,6 +91,42 @@
 
 }
 
-@media(min-width:600px){
+.piepagina{
+    margin-left: 450px;
+}
+
+@media screen and (max-width:600px){
+    .barralateral {
+        height: 100%;
+        width: 50px;
+      position: center  ;
+        left: 0;
+        top: 0;
+        padding-top: 40px;
+        background-color:rgb(194, 252, 118);
+        display: none;
+        }
+        .encabezado {
+           padding: 10px;
+            background: rgb(243, 213, 213);
+         
+            }
+        
+
+.nombre{
+    margin-bottom: -40px;
+    margin-left: 0px;
+    margin-top: 10px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 50px;
+    margin-top: -50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     
+    }
+    .direccion{
+        align-content: center;
+        font-family: 'Saira Extra Condensed', sans-serif;
+        font-size: 15px;
+}
 }
