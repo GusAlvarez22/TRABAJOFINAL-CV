@@ -9,7 +9,7 @@
     <!--FUENTES TIPOGRAFICAS-->
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-
+    <script src="https://kit.fontawesome.com/1ef92a1a5d.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!--barra lateral nevegacion-->
@@ -19,8 +19,9 @@
             <img src="imagen-perfil.jpg"  width="200px" class="imgperfil" alt="">
             <a href="" class="">INCIO</a>
             <a href="#datospersonales"class="">DATOS PERSONALES</a>
-            <a href=""class="">FORMACION ACADEMICA</a>
-            <a href=""class="">EXPERIENCIA LABORAL</a>
+            <a href="#Experiencia_Laboral">EXPERIENCIA LABORAL</a>
+            <a href="#Formacion_academica"class="">FORMACION ACADEMICA</a>
+            <a href="portfolio.html">PORTFOLIO FOTOGRAFICO</a>
         </nav>
     </div>
 <div> 
@@ -43,20 +44,23 @@
             <!--iconos redes-->
 
             <div class="rrss">
-            <a href="#"><img src="IMAGENES/facebook-logo-2021.svg" width="70px" alt="face"></a>
-            <a href="#"><img src="IMAGENES/cd939-logo-instagram-png.png" width="50px" alt="face"></a>
-            <a href="#"><img src="IMAGENES/tiktok-logo.svg" width="60px" alt="face"></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#"><i class="fa-brands fa-discord"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
             </div>
         </div>
 </div>
       
-    <hr style="border:0px; border-top: 5px double #000;" >
+    <hr style="border:0px; border-top: 5px double #000;" id="datospersonales" >
     
-<div class="textogral">
+<section class="textogral">
         <!--datos personales-->
         <h2 >DATOS PERSONALES</h2>
     <div>
-        <div id="datospersonales">
+        <div>
         <div >
         <span>Nombre y Apellido: <span style="color: black; font-size: larger;"> Gustavo Alvarez</span>
         </span>
@@ -75,32 +79,113 @@
         <span class="linea2">Celular: <span style="color: black; font-size: larger;">(54)223-53615555</span>
         </span>
     </div>    
-
-    <!--Boton Java ocultar o mostrar-->
+   
 </div>
+         <!--Boton Java ocultar o mostrar-->
         <button id="botonocultar" class="botonoculta">Ocultar</button>
         <button id="botonomostrar" class="botonmuestra" >Mostrar</button>
+        <script src="JAVASCRIPT/java.js"></script>
     </div>
 
 </div>
-</div>        
-<script src="JAVASCRIPT/java.js"></script>
+</section>        
+
 
 <hr style="border:0px; border-top: 5px double #000;" ><!--Barra divisoria-->
 
 
 <div class="textogral">
-    <!--datos personales-->
-        <h2 >EXPERIENCIA LABORAL</h2>
-        <div>
+    <!--Expriencia Laboral-->
+
+<h2 id="Experiencia_Laboral">EXPERIENCIA LABORAL</h2>
+        <section id="explab">
+        <div >
             <h3 class="tituloempresa">COLSTING CIA</h3>
         <ul class="explaboral">
             <li>Consultor grafico interino</li>
             <li>Desde mi desempeño se posiciono la marca dentro de las 3 mejores emprensas nacionales</li>
             <li>Desmpeño en tareas de marketing digital y cybrseguridad</li>
-            <li>5 años de antigudad en la empresa</li>
-        </ul>    
+            <li>desde el 2018 a la actualidad en la empresa</li>
+        </ul>  
+          
         </div>
+        
+
+        
+            <div >
+                <h3 class="tituloempresa">ARCOR SA</h3>
+            <ul class="explaboral">
+                <li>Desempeñandome en area Marketing Digital</li>
+                <li>2 años en Area de Imagenes como Fotografo</li>
+                <li>repositor externo</li>
+                <li>5 años de antigudad en la empresa</li>
+            </ul>  
+              
+            </div>
+            
+
+            
+            <div >
+                 <h3 class="tituloempresa">FREELANCER</h3>
+            <ul class="explaboral">
+                 <li>Fotografo de eventos sociales</li>
+                <li>Ralizador de imagenes de video</li>
+                <li>Educador en el area fotografica</li>
+                <li>Desde el 2006 a la actualidad ejerciendo</li>
+            </ul>  
+            </div>
+        </section>
+    
+   
+        <!--Boton Java ocultar o mostrar-->
+         <button id="botonocultar2" class="botonoculta">Ocultar</button>
+         <button id="botonomostrar2" class="botonmuestra" >Mostrar</button>
+         <script src="JAVASCRIPT/java.js"></script>
+
+</div>
+
+<hr style="border:0px; border-top: 5px double #000;" ><!--Barra divisoria-->
+
+<div class="textogral">
+    <!--Expriencia Laboral-->
+
+<h2 id="Formacion_academica">FORMACION ACADEMICA</h2>
+    <section id="ACADEMICA">
+        <div >
+            <h3 class="tituloescuela">INSTITUTO RIVERO</h3>
+        <P>Desarrollo en sistemas. Manejo de redes.</P>
+        </div>
+
+        <div >
+            <h3 class="tituloescuela">UNIVERSIDAD SIGLO XX</h3>
+        <P>Marktig digital. Manejo de redes sociales Comunity Manager.</P>
+        </div>
+        
+        <div >
+            <h3 class="tituloescuela">INSTITUTO ROBERT CAPA</h3>
+        <P>Fotografia Profesional. Fotografia Documental. </P>
+        </div>
+
+        <div >
+            <h3 class="tituloescuela">ESCUELA SECUNDARIA N°4</h3>
+        <P>Perito Mercantil con orientacion en informatica.</P>
+        </div>
+    </section>
+
+        
+           
+   
+        <!--Boton Java ocultar o mostrar-->
+         <button id="botonocultar3" class="botonoculta">Ocultar</button>
+         <button id="botonomostrar3" class="botonmuestra" >Mostrar</button>
+         <script src="JAVASCRIPT/java.js"></script>
+
+</div>
+
+
+
+
+
 
 </body>
 </html>

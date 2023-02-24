@@ -62,7 +62,9 @@
 .rrss{
     display: flex;
     align-items: center;
-    padding-top: 30px;
+    padding-top: 35px;
+    
+    
  
 }
  
@@ -78,4 +80,11 @@
 }
 .tituloempresa{
     margin-bottom: -40px;
+
+}
+
+.tituloescuela{
+    margin-bottom: -40px;
+    font-size: 40px;
+
 }
