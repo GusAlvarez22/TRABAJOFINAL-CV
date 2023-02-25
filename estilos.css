@@ -105,34 +105,70 @@
 
 @media screen and (max-width:600px){
     .barralateral {
-        height: 100%;
-        width: 50px;
-      position: center  ;
+        height: 80px;
+        width: 1500px;
         left: 0;
         top: 0;
         padding-top: 40px;
-        background-color:rgb(194, 252, 118);
-        display: none;
+        background-color:brown;
+        display: block;
+        
         }
+    .barralateral a {
+        height: 30px;
+        width: 1500px;
+        padding-top: 30px;
+        display: block;
+        font-size: 15px;
+        margin-top: -50px;
+        position: flex;
+    -ms-flex-align: start;        }
+
+        .barralateral:hover{
+            display: block;
+            transform: scale(1.2);
+        }
+
+
         .encabezado {
            padding: 10px;
             background: rgb(243, 213, 213);
             display: none
          
             }
+            .linknav{
+                margin-top: -125px;
+                text-decoration: dotted;
+            }
+        
+               
+                
+                
+                       
+           
+                
+           
+            .imgperfil{
+                display: flex;
+                margin-left: 250px;
+                margin-top: -32px;
+                width: 100px;
+
+            }
         
 
 .nombre{
     margin-bottom: 24px;
     margin-left: 35px;
-    margin-top: 10px;
+    margin-top: 50px;
     font-family: 'Saira Extra Condensed', sans-serif;
     font-size: 50px;
-    margin-top: -15px;
+    margin-top: 110px;
     padding-top: 0px;
     padding-bottom: 0px;
-    
+        
     }
+
     .direccion{
         margin-left: 30px;
         font-family: 'Saira Extra Condensed', sans-serif;
@@ -174,5 +210,18 @@
 
 
     }
+    .rrss{
+        display: flex;
+        align-items: center;
+        padding-top: 35px;
+        justify-content: space-evenly;
 
-  }
+  
+    }
+    .piepagina{
+        margin-left: 0px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+}

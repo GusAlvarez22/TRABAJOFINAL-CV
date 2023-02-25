@@ -22,3 +22,14 @@ document.getElementById("botonocultar3").addEventListener("click", function(){
     document.getElementById("botonomostrar3").addEventListener("click", function(){
         document.getElementById("ACADEMICA").style.display="block";      
 })
+
+document.getElementById("fullscreen"),
+document.getElementById("fulImg");
+
+function openFulImg(reference){
+    fullscreen.style.display = "flex";
+    fulImg.src = reference 
+    }
+function closeImg(){
+    fullscreen.style.display = "none";
+}

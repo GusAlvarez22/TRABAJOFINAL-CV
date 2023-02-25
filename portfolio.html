@@ -9,21 +9,29 @@
     <script src="https://kit.fontawesome.com/1ef92a1a5d.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="full-img" id="fullscreen">
+        <img src="IMAGENES/1.jpg" id="fulImg" alt="">
+        <span onclick="closeImg()">X</span>
+        
+        <script src="JAVASCRIPT/java.js"></script>
+    </div>
+    
     <h2 class="TITULOPORTFOLIO">PORTFOLIO GUSTAVO ALVAREZ</h2>
 
 <section>
     <div class="imagenesgral">
-        <img src="IMAGENES/1.jpg" alt="imagen1" class="imagenesport">
-        <img src="IMAGENES/2.jpeg" alt="imagen2" class="imagenesport">
-        <img src="IMAGENES/3.jpg" alt="imagen3" class="imagenesport">
-        <img src="IMAGENES/4.jpg" alt="imagen4" class="imagenesport">
-        <img src="IMAGENES/9.jpeg" alt="imagen5" class="imagenesport">
-        <img src="IMAGENES/6.jpg" alt="imagen6" class="imagenesport">
-        <img src="IMAGENES/7.jpg" alt="imagen7" class="imagenesport">
-        <img src="IMAGENES/8.jpg" alt="imagen8" class="imagenesport">
-        <img src="IMAGENES/10.jpg" alt="imagen8" class="imagenesport">
+        <img src="IMAGENES/1.jpg" alt="imagen1" onclick="openFulImg(this.src)" class="imagenesport">
+        <img src="IMAGENES/2.jpeg" alt="imagen2" onclick="openFulImg(this.src)" class="imagenesport">
+        <img src="IMAGENES/3.jpg" alt="imagen3" onclick="openFulImg(this.src)" class="imagenesport">
+        <img src="IMAGENES/4.jpg" alt="imagen4" onclick="openFulImg(this.src)" class="imagenesport">
+        <img src="IMAGENES/9.jpeg" alt="imagen5" onclick="openFulImg(this.src)" class="imagenesport">
+        <img src="IMAGENES/6.jpg" alt="imagen6" onclick="openFulImg(this.src)" class="imagenesport">
+        <img src="IMAGENES/7.jpg" alt="imagen7" onclick="openFulImg(this.src)" class="imagenesport">
+        <img src="IMAGENES/8.jpg" alt="imagen8" onclick="openFulImg(this.src)" class="imagenesport">
+        <img src="IMAGENES/10.jpg" alt="imagen8" onclick="openFulImg(this.src)" class="imagenesport">
         
     </div>
+    
 </section>
 <div class="home">
 <a href="index.html"><i class="fa-solid fa-house"></i>INICIO</a>
