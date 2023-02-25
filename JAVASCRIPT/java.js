@@ -27,9 +27,9 @@ document.getElementById("fullscreen"),
 document.getElementById("fulImg");
 
 function openFulImg(reference){
-    fullscreen.style.display = "flex";
-    fulImg.src = reference 
-    }
+  fullscreen.style.display = "flex";
+  fulImg.src = reference 
+ }
 function closeImg(){
-    fullscreen.style.display = "none";
+  fullscreen.style.display = "none";
 }
