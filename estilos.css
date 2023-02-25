@@ -76,6 +76,14 @@
     margin-left: 250px;
 
 }
+.titulos {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 50px;
+    margin-left: 250px;
+     }
+
+
+
 .linea2 {
     margin-left:350px;
        
@@ -92,7 +100,7 @@
 }
 
 .piepagina{
-    margin-left: 450px;
+    margin-left: 650px;
 }
 
 @media screen and (max-width:600px){
@@ -109,24 +117,62 @@
         .encabezado {
            padding: 10px;
             background: rgb(243, 213, 213);
+            display: none
          
             }
         
 
 .nombre{
-    margin-bottom: -40px;
-    margin-left: 0px;
+    margin-bottom: 24px;
+    margin-left: 35px;
     margin-top: 10px;
     font-family: 'Saira Extra Condensed', sans-serif;
     font-size: 50px;
-    margin-top: -50px;
+    margin-top: -15px;
     padding-top: 0px;
     padding-bottom: 0px;
     
     }
     .direccion{
-        align-content: center;
+        margin-left: 30px;
         font-family: 'Saira Extra Condensed', sans-serif;
-        font-size: 15px;
+        font-size: 12px;
+       
 }
+    .presentacion{
+         font-family: 'Saira Extra Condensed', sans-serif;
+         font-size: 15px;
+         margin-left: 0px;
+         text-shadow: 1px 2px 3px grey ;
 }
+.textogral {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 0px;
+
+ }
+ .titulos {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 30px;
+    margin-left: 5px;
+     }
+
+     .linea2 {
+        margin-left:10px;
+
+
+    }
+    .tituloempresa{
+        margin-bottom: -20px;
+    
+    }
+    
+    .tituloescuela{
+        margin-bottom: -30px;
+        font-size: 20px;
+
+
+    }
+
+  }
