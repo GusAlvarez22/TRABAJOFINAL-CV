@@ -46,13 +46,15 @@
     
     
     
-}      
+}     
+
 .direccion{
     margin-top: -45px;
     padding: 1px 6px;
-    margin-left: 250px;
+    margin-left: 280px;
     font-family: 'Saira Extra Condensed', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
+    
 }
 .presentacion{
     font-family: 'Saira Extra Condensed', sans-serif;
